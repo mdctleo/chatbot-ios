@@ -14,6 +14,7 @@
 		67D8F8FD2B0CDFC40087E613 /* webviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8F8FC2B0CDFC40087E613 /* webviewTests.swift */; };
 		67D8F9072B0CDFC40087E613 /* webviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8F9062B0CDFC40087E613 /* webviewUITests.swift */; };
 		67D8F9092B0CDFC40087E613 /* webviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8F9082B0CDFC40087E613 /* webviewUITestsLaunchTests.swift */; };
+		67D8F9162B0CE7530087E613 /* local.properties in Resources */ = {isa = PBXBuildFile; fileRef = 67D8F9152B0CE7530087E613 /* local.properties */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		67D8F9022B0CDFC40087E613 /* webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D8F9062B0CDFC40087E613 /* webviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webviewUITests.swift; sourceTree = "<group>"; };
 		67D8F9082B0CDFC40087E613 /* webviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67D8F9152B0CE7530087E613 /* local.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = local.properties; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		67D8F8DF2B0CDFC30087E613 = {
 			isa = PBXGroup;
 			children = (
+				67D8F9152B0CE7530087E613 /* local.properties */,
 				67D8F8EA2B0CDFC30087E613 /* webview */,
 				67D8F8FB2B0CDFC40087E613 /* webviewTests */,
 				67D8F9052B0CDFC40087E613 /* webviewUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D8F9162B0CE7530087E613 /* local.properties in Resources */,
 				67D8F8F32B0CDFC40087E613 /* Preview Assets.xcassets in Resources */,
 				67D8F8F02B0CDFC40087E613 /* Assets.xcassets in Resources */,
 			);
